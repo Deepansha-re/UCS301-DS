@@ -29,5 +29,16 @@ void findMiddle() {
 
 int main() {
     for (int i=1; i<=5; i++) insertAtEnd(i);
+    cout << "Linked List: ";
+    Node* temp = head;
+    while (temp) {
+    cout << temp->data;
+    if (temp->next) cout << "->";
+    temp = temp->next;
+    }
+    cout << endl;
     findMiddle();
+    cin.ignore();
+    cin.get();
+    return 0;
 }

@@ -63,4 +63,7 @@ int main() {
     int cnt = countAndDelete(key);
     cout << "Count: " << cnt << endl;
     cout << "Updated List: "; display();
+    cin.ignore();
+    cin.get();
+    return 0;
 }

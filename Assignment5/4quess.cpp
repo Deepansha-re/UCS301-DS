@@ -43,4 +43,7 @@ int main() {
     cout << "Original: "; display();
     reverseList();
     cout << "Reversed: "; display();
+    cin.ignore();
+    cin.get();
+    return 0;
 }

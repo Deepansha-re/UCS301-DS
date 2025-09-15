@@ -179,4 +179,7 @@ int main() {
             default: cout << "Invalid choice!\n";
         }
     }
+    cin.ignore();
+    cin.get();
+    return 0;
 }
