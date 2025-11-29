@@ -105,7 +105,6 @@ int main() {
     }
     cout << "Total Weight = " << cost << endl;
 
-    // -------- PRIM --------
     Graph g(4);
     g.addEdge(0,1,10);
     g.addEdge(0,2,6);
